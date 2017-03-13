@@ -1,0 +1,92 @@
+Introducing Go at ING Services
+20 Mar 2017
+Tags: ing services, go
+
+Mirek Walczak
+Software Designer, ING Services Polska
+miroslaw.walczak@gmail.com
+
+* Problem to solve
+Network Team needs software that can analyze firewall traffic log files
+- files are quite large: 1 file = ~10GB zipped (150GB unzipped)
+- copying files to other server takes time and disk space
+- in most cases need to analyze 7 or 14 logs 
+- restrictions for installing software on a log server
+
+* Solutions
+- Java 
+*Args* *for*:     
+- speed 
+
+*Args* *against*: 
+- I don't like Java much ;)
+- need to install JVM on server
+
+* Solutions
+- Python
+*Args* *for*: 
+- simple solution
+
+*Args* *against*:
+- slow (version 2.6 available on server)
+
+* Solutions
+- Hadoop/Spark
+*Args* *for*: 
+-high speed
+
+*Args* *against*: 
+- solution available mainly for clients
+- need to copy log files to other server
+
+* Solutions
+
+- Go
+*Args* *for*:
+- I wanted to learn it
+- no need for installation anything on a server
+- nice and clean language
+- speed
+*Args* *against*: 
+- time to learn new language
+
+My choice: *Go*
+
+* Application flow
+- authenticate using Active Directory
+- get request data using HTML form
+- validate data
+- put request to a queue
+- take request from a queue
+- inform user (via email) about starting processing his data
+- process file logs saving results in an in-memory SQLite DB
+- save result to excel file
+- send email with file attached
+
+* Application - Demo
+
+* What people say about Go at ING Services
+- "What is Go? Is it some kind of programming language?"
+- "I know what is go go but what is Go?"
+- "Go and Scala will rule soon, GO Ahead"
+
+* Future projects
+Would I use Go for next projects?
+
+* My thoughts on Go
+- very nice language 
+- has very good tools gofmt, goimport, go test, etc.
+- you don't need heavy tools to use it
+
+* My thoughts on Go
+- Go forces you to think deeply about the problem you have to solve.
+- Go forces you to know how does programming language works. In Python you can write couple lines of code and it magically works.
+- Go is much more strict than Python.
+- Go encourages you to write simple and clean code
+All that makes your program less error prone, clean and more readable for others
+
+* My thoughts on Go
+- sometimes it seems to be a bit low level (similarities with C)
+- lack of mature libraries (It will change over time)
+
+* Q&A
