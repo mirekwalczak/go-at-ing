@@ -8,6 +8,7 @@ miroslaw.walczak@gmail.com
 
 * Problem to solve
 Network Team needs software that can analyze firewall traffic log files
+
 - files are quite large: 1 file = ~10GB zipped (150GB unzipped)
 - copying files to other server takes time and disk space
 - in most cases need to analyze 7 or 14 logs 
