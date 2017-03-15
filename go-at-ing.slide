@@ -7,6 +7,7 @@ Software Designer, ING Services Polska
 miroslaw.walczak@gmail.com
 
 * Problem to solve
+
 Network Team needs software that can analyze firewall traffic log files
 
 - files are quite large: 1 file = ~10GB zipped (150GB unzipped)
@@ -15,6 +16,7 @@ Network Team needs software that can analyze firewall traffic log files
 - restrictions for installing software on a log server
 
 * Solutions
+
 - Java 
 *Args* *for*:     
 - speed 
@@ -24,6 +26,7 @@ Network Team needs software that can analyze firewall traffic log files
 - need to install JVM on server
 
 * Solutions
+
 - Python
 *Args* *for*: 
 - simple solution
@@ -32,6 +35,7 @@ Network Team needs software that can analyze firewall traffic log files
 - slow (version 2.6 available on server)
 
 * Solutions
+
 - Hadoop/Spark
 *Args* *for*: 
 -high speed
@@ -54,6 +58,7 @@ Network Team needs software that can analyze firewall traffic log files
 My choice: *Go*
 
 * Application flow
+
 - authenticate using Active Directory
 - get request data using HTML form
 - validate data
@@ -67,19 +72,23 @@ My choice: *Go*
 * Application - Demo
 
 * What people say about Go at ING Services
+
 - "What is Go? Is it some kind of programming language?"
 - "I know what is go go but what is Go?"
 - "Go and Scala will rule soon, GO Ahead"
 
 * Future projects
+
 Would I use Go for next projects?
 
 * My thoughts on Go
+
 - very nice language 
 - has very good tools gofmt, goimport, go test, etc.
 - you don't need heavy tools to use it
 
 * My thoughts on Go
+
 - Go forces you to think deeply about the problem you have to solve.
 - Go forces you to know how does programming language works. In Python you can write couple lines of code and it magically works.
 - Go is much more strict than Python.
@@ -87,7 +96,24 @@ Would I use Go for next projects?
 All that makes your program less error prone, clean and more readable for others
 
 * My thoughts on Go
+
 - sometimes it seems to be a bit low level (similarities with C)
 - lack of mature libraries (It will change over time)
+
+* Learning Go
+
+- small language
+- quite easy to start
+- Go is not Java or Python, folow Go way
+- learn by doing
+- use [[https://play.golang.org][paly.golang.org]
+
+* Resources
+
+- [[https://golang.org/][golang.org]]
+- [[https://tour.golang.org/welcome/1][Take golang tour]]
+- [[https://www.golang-book.com/books/intro][An Introduction to Programming in Go]]
+
+
 
 * Q&A
