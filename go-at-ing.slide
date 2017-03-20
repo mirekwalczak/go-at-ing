@@ -81,13 +81,13 @@ My choice: *Go*
 
 Would I use Go for next projects?
 
-* What I thing about Go
+* What I think about Go
 
 - very nice language 
 - has very good tools gofmt, goimport, go test, etc.
 - you don't need heavy tools to use it
 
-* What I thing about Go
+* What I think about Go
 
 - Go makes you think deeply about the problem you have to solve.
 - Go forces you to know how does programming language works. In Python you can write couple lines of code and it magically works.
@@ -95,7 +95,7 @@ Would I use Go for next projects?
 - Go encourages you to write simple and clean code
 All that makes your program less error prone, clean and more readable for others
 
-* What I thing about Go
+* What I think about Go
 
 - sometimes it seems to be a bit low level (similarities with C)
 - lack of mature libraries (It will change over time)
