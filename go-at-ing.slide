@@ -10,9 +10,9 @@ miroslaw.walczak@gmail.com
 
 Network Team needs software that can analyze firewall traffic log files
 
-- files are quite large: 1 file = ~10GB zipped (150GB unzipped)
+- files are quite large: 1 day = 1 zip file = ~10GB (150GB uncompressed)
+- in most cases application needs to analyze 7 or 14 logs
 - copying files to other server takes time and disk space
-- in most cases need to analyze 7 or 14 logs 
 - restrictions for installing software on a log server
 
 * Solutions
@@ -49,7 +49,7 @@ Network Team needs software that can analyze firewall traffic log files
 - Go
 *Args* *for*:
 - I wanted to learn it
-- no need for installation anything on a server
+- deployment is just copying a single file
 - nice and clean language
 - speed
 *Args* *against*: 
@@ -58,16 +58,16 @@ Network Team needs software that can analyze firewall traffic log files
 My choice: *Go*
 
 * Application flow
-
+ 
 - authenticate using Active Directory
 - get request data using HTML form
 - validate data
-- put request to a queue
-- take request from a queue
+- add a request to a queue
+- remove a request from a queue
 - inform user (via email) about starting processing his data
 - process file logs saving results in an in-memory SQLite DB
 - save result to excel file
-- send email with file attached
+- send an email with an attachement
 
 * Application - Demo
 
@@ -81,28 +81,28 @@ My choice: *Go*
 
 Would I use Go for next projects?
 
-* My thoughts on Go
+* What I thing about Go
 
 - very nice language 
 - has very good tools gofmt, goimport, go test, etc.
 - you don't need heavy tools to use it
 
-* My thoughts on Go
+* What I thing about Go
 
-- Go forces you to think deeply about the problem you have to solve.
+- Go makes you think deeply about the problem you have to solve.
 - Go forces you to know how does programming language works. In Python you can write couple lines of code and it magically works.
 - Go is much more strict than Python.
 - Go encourages you to write simple and clean code
 All that makes your program less error prone, clean and more readable for others
 
-* My thoughts on Go
+* What I thing about Go
 
 - sometimes it seems to be a bit low level (similarities with C)
 - lack of mature libraries (It will change over time)
 
 * Learning Go
 
-- small language
+- minimalistic language
 - quite easy to start
 - Go is not Java or Python, folow Go way
 - learn by doing
@@ -111,7 +111,7 @@ All that makes your program less error prone, clean and more readable for others
 * Resources
 
 - [[https://golang.org/][golang.org]]
-- [[https://tour.golang.org/welcome/1][Take golang tour]]
+- [[https://tour.golang.org/welcome/1][golang tour]]
 - [[https://www.golang-book.com/books/intro][An Introduction to Programming in Go]]
 
 
