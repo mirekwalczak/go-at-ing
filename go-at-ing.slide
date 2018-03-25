@@ -93,7 +93,7 @@ Would I use Go for next projects?
 - Go forces you to know how does programming language works. In Python you can write couple lines of code and it magically works.
 - Go is much more strict than Python.
 - Go encourages you to write simple and clean code
-All that makes your program less error prone, clean and more readable for others
+All that makes your application less error prone, clean and more readable for others
 
 * What I think about Go
 
@@ -104,7 +104,7 @@ All that makes your program less error prone, clean and more readable for others
 
 - minimalistic language
 - quite easy to start
-- Go is not Java or Python, folow Go way
+- Go is not Java or Python, follow the Go way
 - learn by doing
 - use [[https://play.golang.org][paly.golang.org]]
 
